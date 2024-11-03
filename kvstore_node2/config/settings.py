@@ -6,6 +6,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+PEER_NODES = [
+    'http://localhost:8000',
+    'http://localhost:8002',
+]
+
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
